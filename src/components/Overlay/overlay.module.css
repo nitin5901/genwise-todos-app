@@ -1,0 +1,40 @@
+.editFormContainer{
+    background-color: #FFFFFF;
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.Title{
+    font-size: 1.3rem;
+    color: #868686;
+    margin: 0 30px;
+    flex: 1;
+    overflow: scroll;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.editButton{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+    .Title{
+        position: relative;
+        background-color: #FFFFFF;
+        min-height: 80px;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius: 15px;
+        padding: 15px;
+        margin: 10px 0;
+    }
+}
