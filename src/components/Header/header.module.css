@@ -1,0 +1,22 @@
+.header{
+    padding: 50px;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.heading{
+    margin-bottom: 10px;
+}
+
+.dateContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.taskCountBanner{
+    color: #868686;
+    font-size: 1.3rem
+}
+
