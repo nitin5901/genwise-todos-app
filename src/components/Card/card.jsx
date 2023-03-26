@@ -40,13 +40,13 @@ const Card = ({title, checked, id, tasks, setTasks}) => {
                 id = {id}
                 onChange = {() => setIsChecked(!isChecked)}
             />
-            <label 
+            <span 
                 htmlFor = {id}
                 className = {styles.Title}
                 onClick = { () => setIsChecked(!isChecked)}
             > 
                 {title} 
-            </label>
+            </span>
             <div className = {styles.buttonContainer}>
                 <button 
                     onClick={ () => setDisplayOverlay(true)}
