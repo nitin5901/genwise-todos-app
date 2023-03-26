@@ -16,6 +16,7 @@ const Card = ({title, checked, id, tasks, setTasks}) => {
     }
 
     const editTask = (updatedTask) => {
+        setIsChecked(false);
         setDisplayOverlay(false);
         const updateIndex  = tasks.findIndex( (task) => task.id === updatedTask.id)
         const updatedTasks = [...tasks];

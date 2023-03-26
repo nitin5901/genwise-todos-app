@@ -10,7 +10,6 @@ const AddNewComponent = ({ tasks, setTasks }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const newTaskItem = {title: title, checked: false, id: `${id}-${Date.now()}`};
-        console.log(newTaskItem);
         
         const updatedTasks = [...tasks,newTaskItem];
         setTasks(updatedTasks);

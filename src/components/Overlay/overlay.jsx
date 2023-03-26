@@ -10,10 +10,9 @@ const Overlay = ({title, checked, id, editTask}) => {
             className = {styles.editFormContainer}
             onSubmit={(e) => { 
             e.preventDefault();
-            editTask(updatedItem) 
+            editTask(updatedItem); 
             }}
-
-            >
+        >
             <input 
                 required
                 autoFocus
