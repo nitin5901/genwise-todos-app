@@ -27,3 +27,6 @@ This is a simple Todo app built using Next.js, a popular React framework for ser
 - Next.js
 - React
 - CSS Modules
+
+## Snapshots
+
