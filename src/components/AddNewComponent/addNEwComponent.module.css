@@ -1,0 +1,20 @@
+.formContainer{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.Title{
+    width: 75%;
+    height: 30px;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    outline: none;
+}
+
+.addButton{
+   border: 1px solid transparent;
+   margin-right: 25px;
+}
+
