@@ -29,4 +29,8 @@ This is a simple Todo app built using Next.js, a popular React framework for ser
 - CSS Modules
 
 ## Snapshots
+![Desktop View]([image_url](https://github.com/nitin5901/genwise-todos-app/blob/main/Snapshots/DesktopView-1.png))
+![Desktop View]([image_url](https://github.com/nitin5901/genwise-todos-app/blob/main/Snapshots/DesktopView-2.png))
+![Mobile View]([image_url](https://github.com/nitin5901/genwise-todos-app/blob/main/Snapshots/MobileView-1.jpeg))
+
 
